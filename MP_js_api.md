@@ -7,5 +7,5 @@ public String getJsapiTicket() throws WxErrorException;
 
 public String getJsapiTicket(boolean forceRefresh) throws WxErrorException;
 
-public WxMpJsapiSignature createJsapiSignature(String url) throws WxErrorException;
+public WxJsapiSignature createJsapiSignature(String url) throws WxErrorException;
 ```
