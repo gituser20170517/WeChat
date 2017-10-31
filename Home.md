@@ -1,6 +1,7 @@
 # 微信Java SDK开发文档
 
 ## 常见问题
+1. [公众平台接口权限列表说明](http://kf.qq.com/faq/120911VrYVrA1412052y2yu6.html)
 1. **在微信后台设置安全域名时，注意不要将http等字符带入，首先要理解域名的含义，应该是`www.abcde.com`类似这样的**
 1. [对Maven不熟的，建议学习此视频](http://www.imooc.com/learn/443)
 1. [几个内网端口映射服务网站(可以实现将内网主机暴露给外网访问，比如ngrok)](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%87%A0%E4%B8%AA%E5%86%85%E7%BD%91%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84%E6%9C%8D%E5%8A%A1%E7%BD%91%E7%AB%99)
