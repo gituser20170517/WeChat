@@ -13,3 +13,5 @@ WxMpQrCodeTicket ticket = ...;
 File file = wxMpService.getQrcodeService().qrCodePicture(ticket);
 ```
 更多代码，请参考单元测试类：me.chanjar.weixin.mp.api.impl.WxMpQrCodeServiceImplTest
+--------------------------------------------------------------------------------------------------
+**根据对WxMpQrCodeServiceImplTest试运行，发现代码里生成的图片文件格式为png格式，同时在系统临时文件夹中也没有正常生成对应的二维码图片。**
