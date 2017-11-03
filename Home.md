@@ -64,7 +64,7 @@
 1. [刷新access_token](https://github.com/Wechat-Group/weixin-java-tools/wiki/CP_刷新access_token)
 1. [用户身份二次验证](https://github.com/Wechat-Group/weixin-java-tools/wiki/CP_用户身份二次验证)
 1. [主动发送消息](https://github.com/Wechat-Group/weixin-java-tools/wiki/CP_主动发送消息)
-1. [多媒体文件管理](https://github.com/Wechat-Group/weixin-java-tools/wiki/CP_多媒体文件管理)
+1. [临时素材（多媒体文件）管理](https://github.com/Wechat-Group/weixin-java-tools/wiki/CP_多媒体文件管理)
 1. [用户管理](https://github.com/Wechat-Group/weixin-java-tools/wiki/CP_用户管理)
 1. [部门管理](https://github.com/Wechat-Group/weixin-java-tools/wiki/CP_部门管理)
 1. [标签管理](https://github.com/Wechat-Group/weixin-java-tools/wiki/CP_标签管理)
