@@ -1,5 +1,12 @@
 # 微信Java SDK开发文档
 
+## 分模块开发文档
+1. [微信支付开发文档](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
+1. [微信开放平台开发文档](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%BE%AE%E4%BF%A1%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
+1. [微信小程序开发文档](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%B0%8F%E7%A8%8B%E5%BA%8F%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
+1. [公众号开发文档](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
+1. [企业号开发文档](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E4%BC%81%E4%B8%9A%E5%8F%B7%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
+
 ## 常见问题
 1. [公众平台接口权限列表说明](http://kf.qq.com/faq/120911VrYVrA1412052y2yu6.html)
 1. **在微信后台设置安全域名时，注意不要将http等字符带入，首先要理解域名的含义，应该是`www.abcde.com`类似这样的**
