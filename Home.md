@@ -15,6 +15,7 @@
 
 ## 其他常见问题
 1. **在微信后台设置安全域名时，注意不要将http等字符带入，首先要理解域名的含义，应该是`www.abcde.com`类似这样的**
+1. [WxConsts常用常量定义](https://binarywang.github.io/weixin-java-common-javadoc/me/chanjar/weixin/common/api/WxConsts.html)
 1. [Session](https://github.com/Wechat-Group/weixin-java-tools/wiki/WxSession)
 1. [配置日志](https://github.com/Wechat-Group/weixin-java-tools/wiki/配置日志)
 1. [消息排重](https://github.com/Wechat-Group/weixin-java-tools/wiki/消息排重)
