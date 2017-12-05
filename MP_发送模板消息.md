@@ -1,8 +1,10 @@
 ```java
-WxMpTemplateMessage templateMessage = new WxMpTemplateMessage();
-templateMessage.setToUser(...);
-templateMessage.setTemplateId(...);
-templateMessage.setUrl(...);
+WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
+.toUser(...)
+.templateId(...);
+.url(...)
+.build();
+
 templateMessage.getData().add(new WxMpTemplateData(name1, value1, color2));
 templateMessage.getData().add(new WxMpTemplateData(name2, value2, color2));
 
