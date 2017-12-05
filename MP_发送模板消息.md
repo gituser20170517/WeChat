@@ -1,7 +1,7 @@
 ```java
 WxMpTemplateMessage templateMessage = WxMpTemplateMessage.builder()
 .toUser(...)
-.templateId(...);
+.templateId(...)
 .url(...)
 .build();
 
