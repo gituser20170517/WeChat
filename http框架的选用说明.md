@@ -1,8 +1,8 @@
-目前cp和mp均支持多种http框架（apache-httpclient、jod-http以及okhttp）的自由选用，
+目前cp和mp均支持多种http框架（apache-httpclient、jodd-http以及okhttp）的自由选用，pay只支持apache-httpclient和jodd-http，
 客户端默认情况下可以使用apache httpclient；
 
 拿MP举例子来说：
-
+（特别说明，以防新手不假思索造成对现有项目的影响。如果在你的项目中其他地方还会使用到httpclient，那请注意不要填加exclusions的部分）
 1、 如果想使用jodd-http，请在项目pom文件中如下配置：
 ```
         <dependency>
