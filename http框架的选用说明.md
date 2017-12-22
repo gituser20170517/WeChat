@@ -2,7 +2,8 @@
 客户端默认情况下可以使用apache httpclient；
 
 拿MP举例子来说：
-（特别说明，以防新手不假思索造成对现有项目的影响。如果在你的项目中其他地方还会使用到httpclient，那请注意不要填加exclusions的部分）
+_**（特别说明，以防新手不假思索造成对现有项目的影响。如果在你的项目中其他地方还会使用到httpclient，那请注意不要填加exclusions的部分）**_
+
 1、 如果想使用jodd-http，请在项目pom文件中如下配置：
 ```
         <dependency>
