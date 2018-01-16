@@ -1,7 +1,7 @@
 # 微信Java SDK开发文档
 
 ## 分模块开发文档
-1. [微信公众号开发文档](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
+1. [微信公众号开发文档（包含网页授权登录相关接口）](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
 1. [微信企业号（企业微信）开发文档](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E4%BC%81%E4%B8%9A%E5%8F%B7%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
 1. [微信支付开发文档](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%BE%AE%E4%BF%A1%E6%94%AF%E4%BB%98%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
 1. [微信开放平台开发文档](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%BE%AE%E4%BF%A1%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
