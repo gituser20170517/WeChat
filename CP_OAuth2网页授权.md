@@ -3,6 +3,7 @@
 首先构造网页授权url，然后构成超链接让用户点击
 
 ```java
+WxCpService wxCpService = ...;
 wxCpService.oauth2buildAuthorizationUrl(null)
 ```
 
