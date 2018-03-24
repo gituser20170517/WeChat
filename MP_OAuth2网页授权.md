@@ -5,7 +5,7 @@
 ```java
 WxMpService wxMpService = ...;
 String url = ...;
-wxMpService.oauth2buildAuthorizationUrl(url, WxConsts.OAUTH2_SCOPE_USER_INFO, null)
+wxMpService.oauth2buildAuthorizationUrl(url, WxConsts.OAuth2Scope.SNSAPI_USERINFO, null)
 ```
 
 ## 获得access token
