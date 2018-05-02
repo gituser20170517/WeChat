@@ -4,7 +4,7 @@
 
 ```java
 WxCpService wxCpService = ...;
-wxCpService.oauth2buildAuthorizationUrl(null)
+wxCpService.getOauth2Service().buildAuthorizationUrl(null);
 ```
 
 ## 获得用户基本信息
@@ -12,7 +12,7 @@ wxCpService.oauth2buildAuthorizationUrl(null)
 当用户同意授权后，会回调所设置的url并把authorization code传过来，然后用这个code获得user id
 
 ```java
-String[] res = wxCpService.oauth2getUserInfo(code);
+String[] res =  wxCpService.getOauth2Service().getUserInfo(code);
 String userId = res[0];
 String deviceId = res[1];
 ```
