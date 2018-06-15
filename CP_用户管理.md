@@ -33,7 +33,7 @@ WxCpUser user = wxCpService.userGet("demo.user");
 ## 获取部门下用户
 
 ```java
-List<WxCpUser> users = wxCpService.departGetUsers(1, true, 0);
+List<WxCpUser> users = wxCpService.getUserService().listByDepartment(1, true, 0);
 ```
 
 ## 删除用户
