@@ -27,7 +27,7 @@ wxCpService.userUpdate(user);
 ## 获得用户
 
 ```java
-WxCpUser user = wxCpService.userGet("demo.user");
+WxCpUser user = wxCpService.getUserService().getById("demo.user");
 ```
 
 ## 获取部门下用户
@@ -39,5 +39,5 @@ List<WxCpUser> users = wxCpService.getUserService().listByDepartment(1, true, 0)
 ## 删除用户
 
 ```java
-wxCpService.userDelete("demo.user");
+wxCpService.getUserService().delete("demo.user");
 ```
