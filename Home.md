@@ -17,7 +17,7 @@
 1. **在微信后台设置安全域名时，注意不要将http等字符带入，首先要理解域名的含义，应该是`www.abcde.com`类似这样的**
 1. [WxConsts常用常量定义](https://binarywang.github.io/weixin-java-common-javadoc/me/chanjar/weixin/common/api/WxConsts.html)
 1. [Http框架的选用说明](https://github.com/Wechat-Group/weixin-java-tools/wiki/http%E6%A1%86%E6%9E%B6%E7%9A%84%E9%80%89%E7%94%A8%E8%AF%B4%E6%98%8E)
-1. [HttpClient参数配置](https://github.com/Wechat-Group/weixin-java-tools/wiki/HttpClient相关参数的设置方法)
+1. [HttpClient参数配置（寻找超时等相关参数设置方法的，请点击进入）](https://github.com/Wechat-Group/weixin-java-tools/wiki/HttpClient相关参数的设置方法)
 1. [对Maven不熟的，建议学习此视频](http://www.imooc.com/learn/443)
 1. [几个内网端口映射服务网站(可以实现将内网主机暴露给外网访问，比如ngrok)](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%87%A0%E4%B8%AA%E5%86%85%E7%BD%91%E7%AB%AF%E5%8F%A3%E6%98%A0%E5%B0%84%E6%9C%8D%E5%8A%A1%E7%BD%91%E7%AB%99)
 1. [下载maven jar包出现问题时请设置maven镜像库](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E4%B8%8B%E8%BD%BDmaven-jar%E5%8C%85%E5%87%BA%E7%8E%B0%E9%97%AE%E9%A2%98%E6%97%B6%E8%AF%B7%E8%AE%BE%E7%BD%AEmaven%E9%95%9C%E5%83%8F%E5%BA%93)
