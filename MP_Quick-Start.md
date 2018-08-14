@@ -87,6 +87,10 @@ public class WxMpServlet extends HttpServlet {
       // 明文传输的消息
       WxMpXmlMessage inMessage = WxMpXmlMessage.fromXml(request.getInputStream());
       WxMpXmlOutMessage outMessage = wxMpMessageRouter.route(inMessage);
+      if(outMessage == null) {
+          //为null，说明路由配置有问题，需要注意
+          response.getWriter().write("");
+      }
       response.getWriter().write(outMessage.toXml());
       return;
     }
@@ -96,6 +100,10 @@ public class WxMpServlet extends HttpServlet {
       String msgSignature = request.getParameter("msg_signature");
       WxMpXmlMessage inMessage = WxMpXmlMessage.fromEncryptedXml(request.getInputStream(), wxMpConfigStorage, timestamp, nonce, msgSignature);
       WxMpXmlOutMessage outMessage = wxMpMessageRouter.route(inMessage);
+      if(outMessage == null) {
+          //为null，说明路由配置有问题，需要注意
+          response.getWriter().write("");
+      }
       response.getWriter().write(outMessage.toEncryptedXml(wxMpConfigStorage));
       return;
     }
