@@ -12,7 +12,7 @@
 ```
 ## 2. 163
 
-miror配置：
+mirror配置：
 ```
 <mirror>
     <id>nexus-163</id>
