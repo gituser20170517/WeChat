@@ -1,5 +1,5 @@
-推荐使用国内的镜像库，比如aliyun的。
-具体方法是：
+推荐使用国内的镜像库，
+1 .aliyun
 修改maven配置文件setting.xml，替换原有mirrors部分，或添加相应内容：
 ```
   <mirrors>
@@ -11,15 +11,15 @@
     </mirror>
   </mirrors>
 ```
+2. 163
 
-或者使用ibiblio的，据观察，更新内容可能比aliyun稍微快一些，但不一定
 ```
-  <mirrors>
-    <mirror>
-      <id>ibiblio</id>
-      <name>ibiblio</name>
-      <url>http://mirrors.ibiblio.org/maven2</url>
-      <mirrorOf>central</mirrorOf>
-    </mirror>
-  </mirrors>
+<mirror>
+    <id>nexus-163</id>
+    <mirrorOf>*</mirrorOf>
+    <name>Nexus 163</name>
+    <url>http://mirrors.163.com/maven/repository/maven-public/</url>
+</mirror>
 ```
+
+更多信息可以查看http://mirrors.163.com/.help/maven.html
