@@ -1,6 +1,5 @@
-推荐使用国内的镜像库，
-1 .aliyun
-修改maven配置文件setting.xml，替换原有mirrors部分，或添加相应内容：
+推荐使用国内的镜像库，修改maven配置文件setting.xml，替换原有mirrors部分，或添加相应内容：
+## 1 .aliyun
 ```
   <mirrors>
     <mirror>
@@ -11,8 +10,9 @@
     </mirror>
   </mirrors>
 ```
-2. 163
+## 2. 163
 
+miror配置：
 ```
 <mirror>
     <id>nexus-163</id>
