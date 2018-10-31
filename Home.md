@@ -11,7 +11,7 @@
 
 1. [加解密时出现`Illegal key size`异常的处理办法](https://github.com/Wechat-Group/weixin-java-tools/wiki/加解密的异常处理办法)
 1. [发生`java.security.KeyException`的解决办法](https://github.com/Wechat-Group/weixin-java-tools/wiki/java.security.KeyException)
-1. [出现`NoClassDefFoundError`、`NoSuchMethdError`或`ClassNotFoundException`的解决办法](https://github.com/Wechat-Group/weixin-java-tools/wiki/NoClassDefFoundError%E3%80%81NoSuchMethdError%E6%88%96ClassNotFoundException%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95)
+1. [出现`NoClassDefFoundError`、`NoSuchFieldError`、`NoSuchMethdError`或`ClassNotFoundException`的解决办法](https://github.com/Wechat-Group/weixin-java-tools/wiki/NoClassDefFoundError%E3%80%81NoSuchMethdError%E6%88%96ClassNotFoundException%E7%9A%84%E8%A7%A3%E5%86%B3%E5%8A%9E%E6%B3%95)
 
 ## 其他常见问题
 1. **在微信后台设置安全域名时，注意不要将http等字符带入，首先要理解域名的含义，应该是`www.abcde.com`类似这样的**
