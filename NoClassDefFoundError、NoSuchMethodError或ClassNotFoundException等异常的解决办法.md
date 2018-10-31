@@ -1,5 +1,2 @@
-# NoClassDefFoundError、NoSuchMethodError或ClassNotFoundException等的解决办法
-
-
 1. 先检查所需jar是否确实已经部署到运行时的环境中；
 1. 请检查本地项目jar包版本，是否与本SDK所依赖的版本（[【点此处查看pom文件】](https://raw.githubusercontent.com/wechat-group/weixin-java-tools/master/pom.xml)）一致，一般来说是由于部分jar包版本过低导致。最常见的是，httpclient、commons-lang3的版本过老，请检查并核实，手动在自己项目的pom文件中指定其版本号。
