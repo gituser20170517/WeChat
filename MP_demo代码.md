@@ -1,6 +1,6 @@
-关于demo项目请参考项目首页相关部分的说明：https://github.com/Wechat-Group/weixin-java-tools
+关于demo项目请参考项目首页相关部分的说明：https://github.com/Wechat-Group/WxJava/
 
-也可以运行本项目的demo代码来对``weixin-java-tools``的有一个更好的了解。
+也可以运行本项目源码中的demo代码来对`WxJava`的有一个更好的了解。
 
 相关代码在：
 
