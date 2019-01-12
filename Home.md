@@ -1,4 +1,4 @@
-# 微信Java SDK开发文档
+# 微信Java开发文档
 
 ## 分模块开发文档
 1. [微信公众号(mp)开发文档（包含网页授权登录相关接口）](https://github.com/Wechat-Group/weixin-java-tools/wiki/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%BC%80%E5%8F%91%E6%96%87%E6%A1%A3)
